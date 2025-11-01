@@ -1,0 +1,17 @@
+telejornal-web/
+│
+├── index.php               → Tela do Telejornal (Frontend)
+├── admin/
+│   ├── index.php           → Painel de Administração
+│   ├── novo.php            → Formulário para novo roteiro
+│   ├── editar.php          → Editar roteiro
+│   ├── excluir.php         → Excluir roteiro
+│   └── salvar.php          → Processa cadastro/edição
+├── api/
+│   └── get_roteiro.php     → API JSON para buscar roteiro
+├── config/
+│   └── db.php              → Conexão com MySQL
+├── videos/
+│   └── apresentador.mp4    → (você grava depois)
+├── db.sql                  → Script do banco
+└── README.md               → Instruções
